@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Entrada {
 	//Proyecto examen Eduardo Jimenez
-	
+	@deprecated
 	
 	public static String inicializar() {
 		String buzon= "";
@@ -40,5 +40,7 @@ public class Entrada {
 		String valor = inicializar();
 		return valor.charAt(0);
 	}
+	//Codigo del examen
+	int length() Returns the length of this string.
 	
 }
